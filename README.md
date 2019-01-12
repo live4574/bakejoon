@@ -5,9 +5,9 @@ Studying for algorithm(using BaekJoon)
 
 # Member  
 
-|                 Avartar                  |                   Name                   | Role  |                 Activity                 |
+|                 Name                   | Role  |                 Activity                 |
 | :--------------------------------------: | :--------------------------------------: | :---: | :--------------------------------------: |
-| <img src="http://ghchart.rshah.org/2016rshah" alt="2016rshah's Github chart" /> /> |
+|        Lee Jin Young                     Maker    <img src="http://ghchart.rshah.org/live4574" alt="jin young's Github chart" /> /> |
 
  **chart from : http://ghchart.rshah.org**  
 
@@ -20,3 +20,5 @@ http://ghchart.rshah.org
 - BAEKJOON
 ```
 https://www.acmicpc.net
+
+<img src="https://avatars1.githubusercontent.com/u/7951335?v=4&s=100"> | <a href = "https://github.com/jaejunha"> **Jae Jun Ha** </a> | Maker | <img src="http://ghchart.rshah.org/jaejunha" alt="jaejunha's Github chart" /> |
