@@ -6,7 +6,7 @@ Studying for algorithm(using BaekJoon)
 # Member
 |                 Name                    |  Role |                 Activity                 |
 |:--------------------------------------: | :---: | :--------------------------------------: |
-|            Lee Jin Young                  Maker  <img src="http://ghchart.rshah.org/live4574" alt="jin young's Github chart" /> /> |
+|            Lee Jin Young                |  Maker | <img src="http://ghchart.rshah.org/live4574" alt="jin young's Github chart" /> /> |
 
  **chart from : http://ghchart.rshah.org**  
 
