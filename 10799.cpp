@@ -1,22 +1,39 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdlib.h>
 #include <algorithm>
+#include <stack>
 #include <string>
 #include <cstring>
-#include <vector>
 using namespace std;
+
+stack<char>st;
 int main() {
-	char str[101];
-	while (cin.getline(str, 101, '\n')) {
-		int a = 0, b = 0, c = 0, d = 0;
-		for (int i = 0; i < strlen(str); i++) {
-			if (str[i] >= 'a'&&str[i] <= 'z')a++;
-			else if (str[i] >= 'A'&&str[i] <= 'Z')b++;
-			else if (str[i] >= '0'&&str[i] <= '9')c++;
-			else if (str[i] == ' ')d++;
+	int n;
+	char str[100000];
+	cin >> str;
+	int count = 0;
+	int temp = 0;
+	for (int i = 0; i < strlen(str); i++) {
+		if (str[i] == '(') {
+			//st.push(str[i]);
+			temp++;
 		}
-		cout << a << ' ' << b << ' ' << c << ' ' << d << endl;
+		else {
+			if (str[i - 1] == '(') {
+				//st.pop();
+				temp--;
+				//count +=st.size();
+				count += temp;
+				//cout << i <<" "<<count<< endl;
+			}
+			else {
+				count += 1;
+				//st.pop();
+				temp--;
+				//cout << i << " " << count << endl;
+			}
+		}
 	}
-	system("pause");
+	cout << count << endl;
+//	system("pause");
 }
